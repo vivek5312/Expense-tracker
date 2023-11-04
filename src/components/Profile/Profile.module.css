@@ -1,0 +1,82 @@
+.profile {
+  margin: 50px 70px;
+}
+
+.profile div {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile div button {
+  padding: 0px 40px;
+  height: 40px;
+  background: none;
+  color: rgb(255, 71, 71);
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid rgb(255, 71, 71);
+}
+
+.profile div button:hover {
+  color: white;
+  background: rgb(255, 71, 71);
+}
+
+.profile form {
+  padding: 20px;
+}
+
+.profile form span {
+  margin: 0px 90px;
+}
+
+.profile form label {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.profile form input {
+  margin: 10px 15px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 71, 71);
+}
+
+.profile form input:hover {
+  border: 1px solid rgb(255, 71, 71);
+  background: rgb(255, 190, 190);
+}
+
+.profile form button {
+  margin: 20px 10px;
+  padding: 15px 50px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  background: rgb(255, 71, 71);
+  border: none;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+
+.profile form button:hover {
+  border-radius: 30px;
+}
+
+.verify button {
+    padding: 0px 40px;
+    height: 40px;
+    background: none;
+    color: rgb(43, 160, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(43, 160, 255);
+}
+
+.verify button:hover{
+    background: rgb(43, 160, 255);
+    color: white;
+}

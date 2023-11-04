@@ -1,0 +1,36 @@
+.top{
+    display: flex;
+    font-size: 20px;
+    padding: 10px ;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(114, 114, 114);
+}
+
+.profile{
+    font-size: 15px;
+    border: 1px solid rgb(255, 127, 127);
+    background: rgb(255, 217, 217);
+    color: brown;
+    border-radius: 30px;
+    padding: 0px 20px;
+    align-items: center;
+    display: flex;
+}
+
+.profile span{
+    color: blue;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.darkprofile{
+    font-size: 15px;
+    border: 1px solid rgb(32, 0, 84);
+    background: rgb(32, 0, 84);
+    color: white;
+    border-radius: 30px;
+    padding: 0px 20px;
+    align-items: center;
+    display: flex;
+}

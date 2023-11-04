@@ -1,0 +1,57 @@
+.center {
+  text-align: center;
+  padding: 100px 220px;
+  height: 300px;
+  /* width: 400px; */
+}
+
+.SignUp {
+  background: white;
+  border: 1px solid rgb(194, 194, 194);
+}
+
+.SignUp h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.SignUp input {
+  margin: 15px;
+  border: 1px solid rgb(194, 194, 194);
+  padding: 10px 10px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+.SignUp input:hover {
+  background: rgb(187, 219, 255);
+  border: 1px solid rgb(43, 160, 255);
+}
+
+.SignUp button {
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px 60px;
+  color: white;
+  font-size: 15px;
+  border-radius: 15px;
+  background: rgb(43, 160, 255);
+}
+
+
+.SignUp p{
+  cursor: pointer;
+  color: rgb(255, 85, 85);
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.login {
+  margin: 15px;
+  background: rgb(212, 255, 212);
+  color: green;
+  cursor: pointer;
+  border: 1px solid rgb(194, 194, 194);
+}
